@@ -13,7 +13,7 @@ This branch has most of the code used in 2014. It uses:
 
 - A serial USB GPS
 - HMC5883L compass
-- Our motor controlling board
+- I2C communication with our motor controlling board
 
 Also included is a Python server using [tornado](http://www.tornadoweb.org/) displaying information on GPS, compass and battery voltage and allowing basic configuration of GPS coordinates.
 This was an interesting feature that was dropped in later versions.
